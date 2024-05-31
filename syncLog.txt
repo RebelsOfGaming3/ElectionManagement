@@ -1,0 +1,9 @@
+Validating to receive data
+Master System found
+Getting Records from 1021
+Found 1 Records
+Prepairing db_1213_17045417241704541722919.dat
+Reading db_1213_17045417241704541722919.dat
+Synchronization complete for db_1213_17045417241704541722919.dat
+Validating to send data
+Your mobile is not registered

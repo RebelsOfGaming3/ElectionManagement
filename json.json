@@ -1,0 +1,118 @@
+{
+  "wordCount": {
+    "value": 278,
+    "msg": "You have written more than the minimum number of words. You have good writing fluency.",
+    "score": 7
+  },
+  "sentenceCount": {
+    "sentenceLength": {
+      "value": 20.36,
+      "msg": "Your sentences are long enough for an essay writing task.  Aim for an average sentence length of about 20 words.",
+      "score": 9
+    },
+    "sentenceVariance": {
+      "value": 11.26,
+      "msg": "You might be varying the length of your sentences too much. Aim to write short sentences, medium length sentences, and long sentences.",
+      "score": 6
+    }
+  },
+  "paragraphCount": {
+    "value": 1,
+    "msg": "It is appropriate to write about 3-5 paragraphs for this writing task. You are probably not using paragraphs effectively to organize your ideas. Writing only 1 paragraph is not enough.",
+    "score": 5
+  },
+  "exclamationMarks": {
+    "value": 0,
+    "msg": "I haven't detected any exclamation marks in your writing. That's good.",
+    "score": 0
+  },
+  "clicheProfile": {
+    "value": 1,
+    "msg": "Avoid using any clichés in your writing.",
+    "score": -1,
+    "words": [
+      "a waste of time"
+    ]
+  },
+  "paragraphWiseScoring": [
+    {
+      "wordCount": {
+        "value": 278,
+        "msg": "Your introduction seems overly long. Restate the information in the prompt, interpret what it means, and then express a concise opinion.",
+        "score": 6
+      },
+      "requiredStructures": {
+        "value": 8,
+        "msg": "Your introduction addresses the topic.",
+        "score": 7
+      },
+      "paraphrasingErrors": {
+        "value": 0,
+        "msg": "You have paraphrased the writing prompt without repeating it word-for-word. That's good.",
+        "score": 9
+      },
+      "thesisReformulation": {
+        "value": 19,
+        "msg": "Your reformulated thesis in your conclusion is 19% the same as your thesis statement in your introduction. That's good.",
+        "score": 9,
+        "thesisParaphraseOutput": {
+          "allparaphrase_sentence": " Nowadays, <u>people</u> <u>use</u> <u>more</u> <u>private</u> <u>cars</u> which leads to more cars on the road, heavy traffic jam and <u>air</u> <u>pollution</u>",
+          "new_text_array": "  Therefore, these are the reasons why I agree with the way to decrease congestion and <u>air</u> <u>pollution</u> by encourage <u>people</u> to <u>use</u> less <u>private</u> <u>cars</u> and turn to use <u>more</u> public transportation that government provided",
+          "matched": 19
+        }
+      },
+      "sentenceSentiment": {
+        "value": 0.1,
+        "msg": "The last sentence of your introduction expresses a very weak opinion. Make strong claims in opinion essays. Here is an example of a strong claim, \"Financial success must be at the heart of every math curriculum.\"",
+        "score": 6
+      }
+    }
+  ],
+  "errorCount": {
+    "errorData": {
+      "result": [
+        {
+          "feedback": "**Use \"that\" with singular nouns and \"those\" with plural nouns. Did you mean \"those\"?",
+          "context": "I agree with the way to solve this problem by encourage people to use public transportation instead of using private cars because it is the best and easy way that people can do.",
+          "suggestions": [
+            "those"
+          ],
+          "marked_text": "...ars because it is the best and easy way <u><font color ='#ff0000'>that</font></u> people can do. Using public transportat..."
+        },
+        {
+          "feedback": "(12) The verb in an \"or,\" \"either/or,\" or \"neither/nor\" sentence agrees with the noun or pronoun closest to it. The subject \"taxis\" must be used with a third person singular verb form: \"is\". ",
+          "context": "When it comes to prices, the fare for buses or taxis are cheaper than private cars when compared bus fare to the oil price.",
+          "suggestions": [
+            "is"
+          ],
+          "marked_text": "... to prices, the fare for buses or taxis <u><font color ='#ff0000'>are</font></u> cheaper than private cars when compared..."
+        },
+        {
+          "feedback": "Don't use indefinite articles with plural words.  Did you mean \"a bus\" or simply \"buses\"?",
+          "context": "Even though it is a waste of time that people have to wait for a buses, taxis, subway or sky train, it will not take people a long time to reach their destination because public transportation nowadays are developed to be faster and more convenient for citizens.",
+          "suggestions": [
+            "a bus",
+            "buses"
+          ],
+          "marked_text": "...te of time that people have to wait for <u><font color ='#ff0000'>a buses</font></u>, taxis, subway or sky train, it will no..."
+        }
+      ],
+      "error_dnsty": {
+        "undefined": {
+          "count": 3,
+          "type": "error_density",
+          "words": []
+        }
+      }
+    },
+    "feedback": {
+      "value": 3,
+      "msg": "Your essay has a few errors. Try to eliminate them.",
+      "score": 7
+    }
+  },
+  "bandScore": 6.1,
+  "requiredStructuresScore": 7,
+  "lemmatizedVocabularyScore": 0,
+  "max_score": 9
+}
